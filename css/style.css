@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#clear{
+    clear: both;
+}
+
+header{
+    background-color: black;
+    height: 65px;
+    opacity: 0.8;
+}
+
+header img{
+    width: 80px;
+    height: 70px;
+    margin-top: -3px;
+    padding-left: 15px;
+}
+
+#menu-desktop{
+    float: right;
+    padding-right: 15px;
+}
+
+#menu-desktop li{
+    display: inline-block;
+    padding: 28px 10px;
+}
+
+#menu-desktop ul li a{
+    color: rgb(0, 150, 94);
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#back-img{
+    width: 100%;
+    height: 593px;
+    background-image: url(../images/img-fundo.jpg);
+    background-size: cover;
+    opacity: 0.85;
+}
+
+#img{
+    margin: auto;
+    width: 280px;
+    padding-top: 140px;
+}
+
+#descricao{
+    background-color: rgb(77, 77, 77);
+    height: 500px;
+}
+
+#note-img{
+    float: right;
+    margin-right: 100px;
+    margin-top: -430px;
+}
+
+#copy{
+    float: left;
+    margin: 120px 180px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#copy ul{
+    list-style-type: none;
+    font-size: 18px;
+}
+
+#copy ul li{
+    padding-top: 8px;
+    color: white;
+}
+
+#copy #tit-desktop{
+    padding-bottom: 15px;
+    font-size: 25px;
+    color: rgb(0, 150, 94);
+}
+
+#copy #tit-mobile{
+    display: none;
+}
+
+#copy input{
+    margin-top: 15px;
+    background-color: rgb(0, 150, 94);
+    border-radius: 25px;
+    height: 40px;
+    width: 125px;
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+
+#sobre{
+    display: inline-block;
+    width: 100%;
+    height: 700px;
+    background-image: url(../images/fundo-img.jpg);
+    background-size: cover;
+    opacity: 0.7;
+}
+
+#texto-sobre{
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 800px;
+    margin: auto;
+    margin-top: 200px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#texto-sobre h1{
+    margin-top: 120px;
+    text-align: center;
+    font-size: 42px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#texto-sobre p{
+    padding-top: 60px;
+    font-size: 17px;
+    line-height: 30px;
+}
+
+#orcamento{
+    background-color:  black;
+    opacity: 0.9;
+    background-image: url(../images/code1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    padding: 150px;
+}
+
+#form-a{
+    margin: auto;
+    margin-top: -90px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 450px;
+    box-shadow: 5px 5px 10px black ;
+    border-radius: 15px;
+    font-family: sans-serif;
+}
+
+form{
+    text-align: left;
+    margin-left: 40%;
+    width: 55%;
+}
+
+#txt-adc{
+    text-align: left;
+    margin-left: 30%;
+    width: 70%;
+}
+
+#form1{
+    padding-bottom: 25px;
+}
+
+#form1 input[type=number]{
+    width: 40px;
+    height: 25px;
+    padding-left: 20px;
+}
+
+#tit{
+    padding-bottom: 15px;
+    padding-top: 5px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#form-a h1{
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+
+#form-bot input{
+    margin-top: 15px;
+    width: 130px;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    background-color: rgb(77, 77, 77);
+    cursor: pointer;
+}
+
+#form-b{
+    display: none;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 450px;
+    box-shadow: 5px 5px 10px black ;
+    border-radius: 15px;
+    font-family: sans-serif;
+}
+
+#form-b h1{
+    margin-top: 8px;
+    margin-bottom: 30px;
+}
+
+#form-b input{
+    height: 40px;
+    border: none;
+    margin-bottom: 15px;
+}
+
+#form-b input:focus{
+    outline: none;
+}
+
+#form-b #email{
+    margin: auto;
+    width: 343px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+#form-b #tel{
+    margin: auto;
+    width: 343px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+#form-b input[type=submit]{
+    margin-top: 15px;
+    width: 130px;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    background-color: rgb(77, 77, 77);
+    cursor: pointer;
+}
+
+#contatos{
+    text-align: center;
+    height: 250px;
+    background-color: rgb(77, 77, 77);
+}
+
+#contatos h3{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 70px;
+    padding-bottom: 15px;
+    font-size: 25px;
+    color: rgb(175, 175, 175);
+}
+
+#contatos p{
+    color: white;
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    height: 35px;
+    padding-top: 25px;
+}
+
+@media screen and (max-width: 1200px){
+    #note-img{
+        display: none;
+    }
+
+    #copy{
+        float: none;
+        text-align: center;
+        margin-top: 0;
+        padding-top: 120px;
+    }
+
+    #copy #tit-desktop{
+        display: none;
+    }
+
+    #copy #tit-mobile{
+        display: block;
+        padding-bottom: 15px;
+        font-size: 25px;
+        color: rgb(0, 150, 94);
+    }
+
+    #copy ul li{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 830px){
+    #texto-sobre{
+        background-color: rgba(255, 255, 255, 0.8);
+        width: 600px;
+        margin: auto;
+        margin-top: 200px;
+        border-radius: 15px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 630px){
+    #texto-sobre{
+        background-color: rgba(255, 255, 255, 0.8);
+        width: 400px;
+        margin: auto;
+        margin-top: 200px;
+        border-radius: 15px;
+        text-align: center;
+    }
+
+    #texto-sobre h1{
+        margin-top: 120px;
+        text-align: center;
+        font-size: 32px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    #form-a{
+        display: block;
+        margin: auto;
+        margin-top: -130px;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.8);
+        width: 250px;
+        box-shadow: 5px 5px 10px black ;
+        border-radius: 15px;
+        font-family: sans-serif;
+    }
+
+    #form-a h1{
+        font-size: 22px;
+    }
+
+    #form-b{
+        display: none;
+        background-color: rgba(255, 255, 255, 0.8);
+        width: 280px;
+        box-shadow: 5px 5px 10px black ;
+        border-radius: 15px;
+        font-family: sans-serif;
+    }
+
+    #form-b input[type='text']{
+        width: 260px;
+    }
+
+    #form-b #email{
+        width: 260px;
+    }
+
+    #form-b #tel{
+        width: 260px;
+    }
+
+}
+
